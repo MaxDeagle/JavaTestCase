@@ -1,0 +1,88 @@
+–∞–≤–≥ 15, 2017 10:47:18 PM main.DBHandler <init>
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:18 PM main.DBHandler connectToDB
+INFO: Connected to Database
+–∞–≤–≥ 15, 2017 10:47:18 PM main.DBHandler deleteFromDB
+INFO: Deleted data from 'TEST'
+–∞–≤–≥ 15, 2017 10:47:18 PM main.DBHandler connectToDB
+INFO: Connected to Database
+–∞–≤–≥ 15, 2017 10:47:19 PM main.DBHandler writeInDB
+INFO: Data successfully written
+–∞–≤–≥ 15, 2017 10:47:19 PM main.DBHandler connectToDB
+INFO: Connected to Database
+–∞–≤–≥ 15, 2017 10:47:19 PM main.DBHandler readFromDB
+INFO: Data successfully read out
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler writeInXML
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+–∞–≤–≥ 15, 2017 10:47:19 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+‡‚„ 15, 2017 10:47:49 PM main.DBHandler <init>
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.DBHandler connectToDB
+INFO: Connected to Database
+‡‚„ 15, 2017 10:47:50 PM main.DBHandler deleteFromDB
+INFO: Deleted data from 'TEST'
+‡‚„ 15, 2017 10:47:50 PM main.DBHandler connectToDB
+INFO: Connected to Database
+‡‚„ 15, 2017 10:47:50 PM main.DBHandler writeInDB
+INFO: Data successfully written
+‡‚„ 15, 2017 10:47:50 PM main.DBHandler connectToDB
+INFO: Connected to Database
+‡‚„ 15, 2017 10:47:50 PM main.DBHandler readFromDB
+INFO: Data successfully read out
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler writeInXML
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+‡‚„ 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
