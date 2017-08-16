@@ -50,19 +50,18 @@ public class DBHandler {
 		prop = new Properties();
 		
 		try {
-            FileInputStream stream = new FileInputStream(PATH_TO_PROPERTIES);
-            prop.load(stream);
- 
-            sqliteClassName = prop.getProperty("sqliteClassName");
-            deleteQuery = prop.getProperty("deleteQuery");
-            insertQuery = prop.getProperty("insertQuery");
-            selectQuery = prop.getProperty("selectQuery");
-            selectQueryField = prop.getProperty("selectQueryField"); 
-            log.log(Level.INFO, "Successfully read out properties");
-        } catch (IOException e) {
-        	log.log(Level.SEVERE,
-					"File " + PATH_TO_PROPERTIES + " not found!",
-					e);
+                	FileInputStream stream = new FileInputStream(PATH_TO_PROPERTIES);
+                	prop.load(stream);
+                	sqliteClassName = prop.getProperty("sqliteClassName");
+                	deleteQuery = prop.getProperty("deleteQuery");
+                	insertQuery = prop.getProperty("insertQuery");
+                	selectQuery = prop.getProperty("selectQuery");
+                	selectQueryField = prop.getProperty("selectQueryField"); 
+                	log.log(Level.INFO, "Successfully read out properties");
+                } catch (IOException e) {
+        		log.log(Level.SEVERE,
+			"File " + PATH_TO_PROPERTIES + " not found!",
+			e);
         }
  
 	}
