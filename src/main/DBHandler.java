@@ -35,7 +35,10 @@ public class DBHandler {
 		this.address = "";
 		this.N = 0;
 		try {
-			Log.addHandler(new StreamHandler(new FileOutputStream("Application.log", true), new SimpleFormatter()));
+			Log.addHandler(
+					new StreamHandler(
+					new FileOutputStream("Application.log", true), 
+					new SimpleFormatter()));
 
 		} catch (SecurityException e) {
 			Log.log(Level.SEVERE, "Can't create log file. Security error.", e);

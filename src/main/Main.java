@@ -14,16 +14,16 @@ public class Main {
 	public static void main(String args[])
 			throws ParserConfigurationException, TransformerException, SAXException, IOException {
 		int N = 0;
-		String adress = "";
+		String address = "";
 
 		try (Scanner sc = new Scanner(System.in)) {
 			System.out.println("Enter path to DB and N (example: \n testbase.s3db \n 10 \n)");
-			adress = sc.next();
+			address = sc.next();
 			N = sc.nextInt();
 		}
 		long startTime = System.currentTimeMillis();
 		DBHandler dataBaseWorker = new DBHandler();
-		dataBaseWorker.setAdress(adress);
+		dataBaseWorker.setAdress(address);
 		dataBaseWorker.setN(N);
 		dataBaseWorker.deleteFromDB();
 		dataBaseWorker.writeInDB();
