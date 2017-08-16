@@ -86,3 +86,133 @@ INFO: Successfully read out properties
 INFO: Successfully read out data from 2.xml
 ��� 15, 2017 10:47:50 PM main.XMLHandler parseFromXML
 INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:23:37 PM main.DBHandler <init>
+INFO: Successfully read out properties
+авг 16, 2017 8:23:38 PM main.DBHandler connectToDB
+INFO: Connected to Database
+авг 16, 2017 8:23:38 PM main.DBHandler deleteFromDB
+INFO: Deleted data from 'TEST'
+авг 16, 2017 8:23:38 PM main.DBHandler writeInDB
+INFO: Data successfully written
+авг 16, 2017 8:23:38 PM main.DBHandler readFromDB
+SEVERE: Can't read data from DataBase!
+java.sql.BatchUpdateException: batch entry 0: query returns results
+	at org.sqlite.jdbc3.JDBC3Statement.executeBatch(JDBC3Statement.java:210)
+	at main.DBHandler.readFromDB(DBHandler.java:146)
+	at main.Main.main(Main.java:33)
+
+авг 16, 2017 8:23:38 PM main.XMLHandler setProperties
+INFO: Successfully read out properties
+авг 16, 2017 8:23:38 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+авг 16, 2017 8:23:38 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+авг 16, 2017 8:23:39 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:23:38 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+авг 16, 2017 8:23:38 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+авг 16, 2017 8:23:39 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:23:39 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:23:39 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:25:45 PM main.DBHandler <init>
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.DBHandler connectToDB
+INFO: Connected to Database
+авг 16, 2017 8:25:46 PM main.DBHandler deleteFromDB
+INFO: Deleted data from 'TEST'
+авг 16, 2017 8:25:46 PM main.DBHandler writeInDB
+INFO: Data successfully written
+авг 16, 2017 8:25:46 PM main.DBHandler readFromDB
+SEVERE: Can't read data from DataBase!
+java.sql.SQLException: ResultSet already requested
+	at org.sqlite.jdbc3.JDBC3Statement.getResultSet(JDBC3Statement.java:136)
+	at main.DBHandler.readFromDB(DBHandler.java:146)
+	at main.Main.main(Main.java:33)
+
+авг 16, 2017 8:25:46 PM main.XMLHandler setProperties
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:25:46 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:26:09 PM main.DBHandler <init>
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.DBHandler connectToDB
+INFO: Connected to Database
+авг 16, 2017 8:26:09 PM main.DBHandler deleteFromDB
+INFO: Deleted data from 'TEST'
+авг 16, 2017 8:26:09 PM main.DBHandler writeInDB
+INFO: Data successfully written
+авг 16, 2017 8:26:09 PM main.DBHandler readFromDB
+INFO: Data successfully read out
+авг 16, 2017 8:26:09 PM main.XMLHandler setProperties
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+авг 16, 2017 8:26:09 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
