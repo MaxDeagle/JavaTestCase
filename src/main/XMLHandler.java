@@ -29,7 +29,6 @@ import org.jdom2.JDOMException;
 import org.jdom2.filter.ElementFilter;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.XMLOutputter;
-
 public class XMLHandler {
 	private static Logger log = Logger.getLogger(DBHandler.class.getName());
 	private static final String PATH_TO_PROPERTIES = "src/main/resources/config.properties";
