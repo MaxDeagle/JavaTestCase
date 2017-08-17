@@ -1,18 +1,14 @@
 package main;
 
-import java.io.IOException;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
-
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerException;
-
-import org.xml.sax.SAXException;
 
 public class Main {
 
-	public static void main(String args[])
-			throws ParserConfigurationException, TransformerException, SAXException, IOException {
+	public static void main(String args[]) {
+		
+		Locale.setDefault(new Locale("en", "EN"));
 		int N = 0;
 		String address = "";
 
