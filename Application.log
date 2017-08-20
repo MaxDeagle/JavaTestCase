@@ -38,3 +38,118 @@ Aug 17, 2017 10:25:52 PM main.XMLHandler parseFromXML
 INFO: Successfully read out data from 2.xml
 Aug 17, 2017 10:25:52 PM main.XMLHandler parseFromXML
 INFO: Successfully read out data from 2.xml
+Aug 20, 2017 12:51:40 PM main.DBHandler <init>
+INFO: Successfully read out properties
+Aug 20, 2017 12:51:40 PM main.DBHandler connectToDB
+SEVERE: Class org.sqlite.JDBC not found!
+java.lang.ClassNotFoundException: org.sqlite.JDBC
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at main.DBHandler.connectToDB(DBHandler.java:85)
+	at main.DBHandler.deleteFromDB(DBHandler.java:99)
+	at main.Main.main(Main.java:24)
+
+Aug 20, 2017 12:53:03 PM main.DBHandler <init>
+INFO: Successfully read out properties
+Aug 20, 2017 12:53:03 PM main.DBHandler connectToDB
+SEVERE: Class org.sqlite.JDBC not found!
+java.lang.ClassNotFoundException: org.sqlite.JDBC
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at main.DBHandler.connectToDB(DBHandler.java:85)
+	at main.DBHandler.deleteFromDB(DBHandler.java:99)
+	at main.Main.main(Main.java:24)
+
+Aug 20, 2017 12:54:35 PM main.DBHandler <init>
+INFO: Successfully read out properties
+Aug 20, 2017 12:54:35 PM main.DBHandler connectToDB
+SEVERE: Class org.sqlite.JDBC not found!
+java.lang.ClassNotFoundException: org.sqlite.JDBC
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at main.DBHandler.connectToDB(DBHandler.java:85)
+	at main.DBHandler.deleteFromDB(DBHandler.java:99)
+	at main.Main.main(Main.java:24)
+
+Aug 20, 2017 12:55:37 PM main.DBHandler <init>
+INFO: Successfully read out properties
+Aug 20, 2017 12:55:37 PM main.DBHandler connectToDB
+SEVERE: Class org.sqlite.JDBC.class not found!
+java.lang.ClassNotFoundException: org.sqlite.JDBC.class
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at main.DBHandler.connectToDB(DBHandler.java:85)
+	at main.DBHandler.deleteFromDB(DBHandler.java:99)
+	at main.Main.main(Main.java:24)
+
+Aug 20, 2017 12:55:52 PM main.DBHandler <init>
+INFO: Successfully read out properties
+Aug 20, 2017 12:55:52 PM main.DBHandler connectToDB
+SEVERE: Class org.sqlite.JDBC.java not found!
+java.lang.ClassNotFoundException: org.sqlite.JDBC.java
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at main.DBHandler.connectToDB(DBHandler.java:85)
+	at main.DBHandler.deleteFromDB(DBHandler.java:99)
+	at main.Main.main(Main.java:24)
+
+Aug 20, 2017 1:04:09 PM main.DBHandler <init>
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:14 PM main.DBHandler connectToDB
+INFO: Connected to Database
+Aug 20, 2017 1:04:14 PM main.DBHandler deleteFromDB
+INFO: Deleted data from 'TEST'
+Aug 20, 2017 1:04:14 PM main.DBHandler writeInDB
+INFO: Data successfully written
+Aug 20, 2017 1:04:14 PM main.DBHandler readFromDB
+INFO: Data successfully read out
+Aug 20, 2017 1:04:14 PM main.XMLHandler setProperties
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:14 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+Aug 20, 2017 1:04:14 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:15 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+Aug 20, 2017 1:04:14 PM main.XMLHandler writeInXML
+INFO: Successfully written data in 1.xml
+Aug 20, 2017 1:04:14 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:15 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+Aug 20, 2017 1:04:15 PM main.XMLHandler transformIntoSecondXML
+INFO: Successfully transformed 1.xml into 2.xml
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out properties
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
+Aug 20, 2017 1:04:15 PM main.XMLHandler parseFromXML
+INFO: Successfully read out data from 2.xml
